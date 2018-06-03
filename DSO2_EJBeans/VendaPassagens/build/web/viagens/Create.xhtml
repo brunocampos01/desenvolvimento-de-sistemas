@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ViagensCreateDlg" widgetVar="ViagensCreateDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.CreateViagensTitle}">
+            <h:form id="ViagensCreateForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{viagensController.selected != null}">
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_id}" for="id" />
+                        <p:inputText id="id" value="#{viagensController.selected.id}" title="#{bundle.CreateViagensTitle_id}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_id}"/>
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_dia}" for="dia" />
+                        <p:inputText id="dia" value="#{viagensController.selected.dia}" title="#{bundle.CreateViagensTitle_dia}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_dia}"/>
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_horario}" for="horario" />
+                        <p:inputText id="horario" value="#{viagensController.selected.horario}" title="#{bundle.CreateViagensTitle_horario}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_horario}"/>
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_destino}" for="destino" />
+                        <p:inputText id="destino" value="#{viagensController.selected.destino}" title="#{bundle.CreateViagensTitle_destino}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_destino}"/>
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_origem}" for="origem" />
+                        <p:inputText id="origem" value="#{viagensController.selected.origem}" title="#{bundle.CreateViagensTitle_origem}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_origem}"/>
+                        <p:outputLabel value="#{bundle.CreateViagensLabel_numeroAcentos}" for="numeroAcentos" />
+                        <p:inputText id="numeroAcentos" value="#{viagensController.selected.numeroAcentos}" title="#{bundle.CreateViagensTitle_numeroAcentos}" required="true" requiredMessage="#{bundle.CreateViagensRequiredMessage_numeroAcentos}"/>
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{viagensController.create}" value="#{bundle.Save}" update="display,:ViagensListForm:datalist,:growl" oncomplete="handleSubmit(args,'ViagensCreateDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ViagensCreateDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

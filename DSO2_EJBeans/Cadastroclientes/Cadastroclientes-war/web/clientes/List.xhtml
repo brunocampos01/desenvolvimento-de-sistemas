@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:body>
+        <h:form>
+            <h1><h:outputText value="Lista de Clientes"/></h1>
+            <p:dataTable var="cliente" value="#{clienteMBean.listaClientes}">
+                <p:column headerText="Id">
+                    <h:outputText value="#{cliente.id}" />
+                </p:column>
+                <p:column headerText="Nome">
+                    <h:outputText value="#{cliente.nome}" /> 
+                </p:column>
+                <p:column headerText="E-mail">
+                    <h:outputText value="#{cliente.email}" />
+                </p:column>
+            </p:dataTable>
+        </h:form>
+        <h:form>
+            <p:panelGrid columns="2">
+                <p:outputLabel value="Id:" for="id" />
+                <p:inputText id="id" value="#{clienteMBean.clientes.id}" title="Id" required="true" requiredMessage="The Id field is required."/>
+                <p:commandButton value="Delete" action="#{clienteMBean.delete()}"></p:commandButton>
+            </p:panelGrid>
+        </h:form>
+        <h:link outcome="/clientes/Create" value="Create Cliente"/>
+    </h:body>
+
+</html>

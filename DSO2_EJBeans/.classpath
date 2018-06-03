@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Cadastroclientes/Cadastroclientes-ejb/src/java"/>
+	<classpathentry kind="src" path="Cadastroclientes/Cadastroclientes-war/src/java"/>
+	<classpathentry kind="src" path="VendaPassagens/build/generated-sources/ap-source-output"/>
+	<classpathentry kind="src" path="VendaPassagens/src/java"/>
+	<classpathentry kind="lib" path="VendaPassagens/build/web/WEB-INF/lib/postgresql-42.1.1.jre6.jar"/>
+	<classpathentry kind="lib" path="VendaPassagens/build/web/WEB-INF/lib/primefaces-5.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="VendaPassagens/build/web/WEB-INF/classes"/>
+</classpath>

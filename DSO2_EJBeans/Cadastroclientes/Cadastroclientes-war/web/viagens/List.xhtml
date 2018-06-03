@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:body>
+          <h:form>
+                <h1><h:outputText value="List"/></h1>
+                <p:dataTable value="#{viagensMBean.listaViagenses}" var="item">
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Id"/>
+                        </f:facet>
+                        <h:outputText value="#{item.id}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Dia"/>
+                        </f:facet>
+                        <h:outputText value="#{item.dia}">
+                            <f:convertDateTime pattern="MM/dd/yyyy" />
+                        </h:outputText>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Horario"/>
+                        </f:facet>
+                        <h:outputText value="#{item.horario}">
+                            <f:convertDateTime pattern="HH:mm:ss" />
+                        </h:outputText>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Origem"/>
+                        </f:facet>
+                        <h:outputText value="#{item.origem}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="Destino"/>
+                        </f:facet>
+                        <h:outputText value="#{item.destino}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="NumeroAcentos"/>
+                        </f:facet>
+                        <h:outputText value="#{item.numeroAcentos}"/>
+                    </p:column>
+                </p:dataTable>
+            </h:form>
+            <h:form>
+                <p:panelGrid columns="2">
+                    <p:outputLabel value="Id:" for="id" />
+                    <p:inputText id="id" value="#{viagensMBean.viagens.id}" title="Id" required="true" requiredMessage="The Id field is required."/>
+                    <p:commandButton value="Delete" action="#{viagensMBean.delete()}"></p:commandButton>
+                </p:panelGrid>
+            </h:form>
+            <h:link outcome="/viagens/Create" value="Create Viagem"/>
+    </h:body>
+</html>

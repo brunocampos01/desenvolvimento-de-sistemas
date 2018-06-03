@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ClientesEditDlg" widgetVar="ClientesEditDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.EditClientesTitle}">
+            <h:form id="ClientesEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{clientesController.selected != null}">
+                        <p:outputLabel value="#{bundle.EditClientesLabel_id}" for="id" />
+                        <p:inputText id="id" value="#{clientesController.selected.id}" title="#{bundle.EditClientesTitle_id}" required="true" requiredMessage="#{bundle.EditClientesRequiredMessage_id}"/>
+                        <p:outputLabel value="#{bundle.EditClientesLabel_nome}" for="nome" />
+                        <p:inputTextarea rows="4" cols="30" id="nome" value="#{clientesController.selected.nome}" title="#{bundle.EditClientesTitle_nome}" />
+                        <p:outputLabel value="#{bundle.EditClientesLabel_endereco}" for="endereco" />
+                        <p:inputTextarea rows="4" cols="30" id="endereco" value="#{clientesController.selected.endereco}" title="#{bundle.EditClientesTitle_endereco}" />
+                        <p:outputLabel value="#{bundle.EditClientesLabel_cidade}" for="cidade" />
+                        <p:inputTextarea rows="4" cols="30" id="cidade" value="#{clientesController.selected.cidade}" title="#{bundle.EditClientesTitle_cidade}" />
+                        <p:outputLabel value="#{bundle.EditClientesLabel_uf}" for="uf" />
+                        <p:inputTextarea rows="4" cols="30" id="uf" value="#{clientesController.selected.uf}" title="#{bundle.EditClientesTitle_uf}" />
+                        <p:outputLabel value="#{bundle.EditClientesLabel_telefone}" for="telefone" />
+                        <p:inputTextarea rows="4" cols="30" id="telefone" value="#{clientesController.selected.telefone}" title="#{bundle.EditClientesTitle_telefone}" />
+                        <p:outputLabel value="#{bundle.EditClientesLabel_email}" for="email" />
+                        <p:inputTextarea rows="4" cols="30" id="email" value="#{clientesController.selected.email}" title="#{bundle.EditClientesTitle_email}" />
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{clientesController.update}" value="#{bundle.Save}" update="display,:ClientesListForm:datalist,:growl" oncomplete="handleSubmit(args, 'ClientesEditDialog');"/>
+                    <p:commandButton value="#{bundle.Cancel}" onclick="ClientesEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>
