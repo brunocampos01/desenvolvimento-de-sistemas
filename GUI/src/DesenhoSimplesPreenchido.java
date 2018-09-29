@@ -3,7 +3,6 @@ import java.awt.Graphics;
 import java.awt.Color;
 
 public class DesenhoSimplesPreenchido extends JPanel{
-	
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
 		

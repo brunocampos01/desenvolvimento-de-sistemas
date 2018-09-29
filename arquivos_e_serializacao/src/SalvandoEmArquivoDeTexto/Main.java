@@ -9,6 +9,5 @@ public class Main {
     	
     	escreveNoAquivo.writeFile();
     	escreveNoAquivo.readFile();
-    	
     }
 }

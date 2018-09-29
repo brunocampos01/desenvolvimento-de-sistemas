@@ -2,9 +2,6 @@ package serializacao;
 
 import java.io.Serializable;
 
-// Fig. 17.5: AccountRecord.java
-// AccountRecord class maintains information for one account.
-
 public class Personagem implements Serializable
 {
    private int account;
@@ -12,51 +9,51 @@ public class Personagem implements Serializable
    private String lastName;
    private double balance;
 
-   // set account number   
+   // set  
    public void setAccount( int acct )
    {
       account = acct;
-   } // end method setAccount
+   }
 
-   // get account number   
+   // get
    public int getAccount() 
    { 
       return account; 
-   } // end method getAccount
+   }
    
-   // set first name   
+   // set  
    public void setFirstName( String first )
    {
       firstName = first;
-   } // end method setFirstName
+   }
 
-   // get first name   
+   // get
    public String getFirstName() 
    { 
       return firstName; 
-   } // end method getFirstName
+   }
    
-   // set last name   
+   // set 
    public void setLastName( String last )
    {
       lastName = last;
-   } // end method setLastName
+   }
 
-   // get last name   
+   // get 
    public String getLastName() 
    {
       return lastName; 
-   } // end method getLastName
+   }
    
-   // set balance  
+   // set
    public void setBalance( double bal )
    {
       balance = bal;
-   } // end method setBalance
+   }
 
-   // get balance   
+   // get
    public double getBalance() 
    { 
       return balance; 
-   } // end method getBalance
-} // end class AccountRecord
+   }
+}

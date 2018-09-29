@@ -2,7 +2,6 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 public class DesenhoSimples extends JPanel{
-	
 	//método que desenha o painel
 	public void paintComponent( Graphics g)
 	{
@@ -15,8 +14,5 @@ public class DesenhoSimples extends JPanel{
 		g.drawLine(0, 0, width, height);
 		g.drawLine(0, height, width, 0);
 		g.drawLine(width/2, 0,width/2, height);
-
-		
 	}
-
 }

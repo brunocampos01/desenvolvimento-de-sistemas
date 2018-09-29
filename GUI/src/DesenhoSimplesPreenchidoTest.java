@@ -1,11 +1,8 @@
 import javax.swing.JFrame;
 
 public class DesenhoSimplesPreenchidoTest {
-
 	public static void main(String[] args) {
-		
 		DesenhoSimplesPreenchido painelDeDesenho = new DesenhoSimplesPreenchido();
-		
 		JFrame frame = new JFrame();
 		
 		//visible
@@ -18,8 +15,6 @@ public class DesenhoSimplesPreenchidoTest {
 		frame.setSize(230, 250);
 		
 		//add o painel no frame
-		frame.add(painelDeDesenho);
-		
+		frame.add(painelDeDesenho);	
 	}
-
 }

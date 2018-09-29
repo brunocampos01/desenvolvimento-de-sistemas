@@ -12,8 +12,7 @@ public class SerializadorEDesserializador {
 	
 	Personagem personagemUm, personagemDois;
 	
-	public void serializar () {
-		
+	public void serializar () {	
 		try {
 			//cria e abre um arquivo
 			FileOutputStream fileStream = new FileOutputStream("personagens.ser");
@@ -32,12 +31,9 @@ public class SerializadorEDesserializador {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-
 	}
 	
 	public void desserializador() throws ClassNotFoundException{
-		
 		try {
 			//abre o arquivo
 			//caso nao exista "personagens.ser" eh capturado uma excecao
@@ -52,8 +48,7 @@ public class SerializadorEDesserializador {
 			
 			Personagem personagemUm = (Personagem) one;
 			Personagem personagemDois = (Personagem) two;
-
-			
+	
 			leitor.close();
 			
 		} catch (FileNotFoundException e) {
@@ -61,8 +56,5 @@ public class SerializadorEDesserializador {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-
 	}
-
 }

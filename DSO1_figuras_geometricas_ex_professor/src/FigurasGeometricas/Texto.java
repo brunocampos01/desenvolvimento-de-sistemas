@@ -9,13 +9,11 @@ class Texto implements Reproduzivel {
 	    this.txt = txt;
 	  }
 
-
 	  public void reproduzir(java.awt.Graphics g) {
 	    g.drawString(txt,x,y);
 	  }
 
-
 	  public String toString() {
 	    return txt; 
 	  }
-	}//
+	}

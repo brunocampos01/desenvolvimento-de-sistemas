@@ -1,7 +1,6 @@
 package FigurasGeometricas;
 
 class EditorRetangulo implements Clicavel {
-
 	  private Reprodutor quadro;
 	  EditorRetangulo(Reprodutor quadro) {
 	    this.quadro = quadro;

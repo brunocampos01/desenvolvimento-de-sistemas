@@ -3,9 +3,7 @@ package FigurasGeometricas;
 import javax.swing.*;
 import java.awt.*;
 
-
 class Main {
-
   public static void main(String[] fdfd) {
     JFrame f = new JFrame();
     Reprodutor quadro;
@@ -32,10 +30,9 @@ class Main {
     editor = new EditorRetangulo(quadro);
     quadro.addMouseListener(new Clicador(editor));
 
-
     quadro.repaint();
-
   } 
+  
   static void exemplo01() {
    Ponto p;
     p = new Ponto(3,4);
@@ -61,8 +58,6 @@ class Main {
     q = s;
     q.deslocarY(-2);//ok
     //q.ampliar(2);//nok
-
-
   }
 
   static void voltinha(Ponto a) {
@@ -72,10 +67,10 @@ class Main {
     a.deslocarX(-3);
     a.deslocarY(-4);
   }
+  
   static void pulinho(Ponto a) {
     if (a == null) return;
     a.deslocarY(3);
     a.deslocarX(3);
    }
-
 }

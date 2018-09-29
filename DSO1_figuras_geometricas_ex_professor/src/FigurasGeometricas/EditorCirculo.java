@@ -1,7 +1,6 @@
 package FigurasGeometricas;
 
 class EditorCirculo implements Clicavel {
-
 	  private Reprodutor quadro;
 	  EditorCirculo(Reprodutor quadro) {
 	    this.quadro = quadro;
@@ -13,5 +12,4 @@ class EditorCirculo implements Clicavel {
 	    );
 	    quadro.repaint();
 	  }
-
 	}

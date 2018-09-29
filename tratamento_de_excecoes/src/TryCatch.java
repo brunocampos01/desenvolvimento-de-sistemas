@@ -1,9 +1,6 @@
-
 public class TryCatch {
-
 	public static void main(String[] args) {
 		
-
 		try{
 			int[] vetor = new int[4];
 			System.out.println("antes da exception");
@@ -16,5 +13,4 @@ public class TryCatch {
 		}
 		System.out.println("linha executada depois da exception (o programa nao parou !)");
 	}
-
 }
