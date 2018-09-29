@@ -9,7 +9,6 @@ import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
 public class SerializadorEDesserializador {
-	
 	Personagem personagemUm, personagemDois;
 	
 	public void serializar () {	
@@ -24,8 +23,7 @@ public class SerializadorEDesserializador {
 			gravador.writeObject(personagemUm);
 			gravador.writeObject(personagemDois);
 			
-			gravador.close();
-			
+			gravador.close();	
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -49,8 +47,7 @@ public class SerializadorEDesserializador {
 			Personagem personagemUm = (Personagem) one;
 			Personagem personagemDois = (Personagem) two;
 	
-			leitor.close();
-			
+			leitor.close();	
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
