@@ -1,39 +1,11 @@
-# How to README?
-
-It must have the following format:
-- Title 
-- Tags: Search shields [here !](https://shields.io/#/examples/build)
-- Describe project 
-- Pre Requirements
-- Quickstart
-- Install
-- Examples
-- References 
-- Bug fix or sugestions
-- How to contribuite </br> 
-- Author
-- Copyright and license
-
----
-# Example
-
-## Title
-[![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
+# Desenvolvimento de Sistemas Orientado à objetos 
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 ## Describe project 
 ## Pre Requirements
-## Quickstart
-## Install
-## Examples
-## References 
-## Bug fix or sugestions
-## How to contribuite
-1. [Fork](fork) the official repository.
-2. Create a topic branch.
-3. *Implement your feature or bug fix.*
-4. Add, commit, and **push** your changes.
-5. Submit a pull request.
+- Java 8 ou superior:<br/>
+`arquivo bash`
+
 
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
