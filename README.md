@@ -5,8 +5,6 @@
 ## Pre Requirements
 - Java 8 ou superior:<br/>
   - **Site oficial**: https://www.java.com/pt_BR/download/
-  - **Easy install**: Faça o download [java_install.sh](https://github.com/brunocampos01/DevOps/blob/master/infraestrutura/scripts_install/java_install.sh) e execute no terminal.
-
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
 ## Copyright
