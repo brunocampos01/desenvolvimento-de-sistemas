@@ -13,6 +13,7 @@ public class TextFile {
 	File arquivo = new File("arquivoDeTexto.txt");
 
 	public void writeFile() {
+		
 		try {
 			//fluxo de conexao para escrita
 			FileWriter escreveNoArquivo = new FileWriter (arquivo);
