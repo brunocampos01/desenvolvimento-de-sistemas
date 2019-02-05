@@ -1,15 +1,16 @@
+import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.SQLException;
 import java.sql.DriverManager;
 
-public class connectionJDBC {
+public class ConnectionDB {
     public static void main (String args []) {
 
         // Constants 
-        private static final String DATABASE_DNS = "localhost";
-        private static final String DATABASE_URL = "jdbc:mysql://";
-        private static final String MYSQL_USER = "root";
-        private static final String MYSQL_PASSWD = "root";
+        final String DATABASE_DNS = "localhost";
+        final String DATABASE_URL = "jdbc:mysql://";
+        final String MYSQL_USER = "root";
+        final String MYSQL_PASSWD = "root";
         
         Connection conn = null;     // manager connetion
         Statement statement = null; // manager query
@@ -31,13 +32,18 @@ public class connectionJDBC {
             stmt.execute(query);
 
         } catch (SQLException e) {
-            System.out.Println("Error when execute QUERY: " + e.getMessage());
-            sqlException.printStackTrace();
+            System.out.println("Error when execute QUERY: " + e.getMessage());
+            e.printStackTrace();
         } finally {
             //finally block used to close resources
             if (conn != null || statement != null) {
-                conn.close();
-                statement.close();
+                try {
+                    conn.close();
+                    statement.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+
             }
         }
     }

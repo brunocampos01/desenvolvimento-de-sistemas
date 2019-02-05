@@ -1,19 +1,17 @@
-import java.sql.Statement;
-import java.sql.SQLException;
-import java.sql.DriverManager;
+import java.sql.*;
 
 public class ConnectionDbAndReturnQuery {
     public static void main (String args []) {
 
         // Constants
-        private static final String DATABASE_DNS = "localhost";
-        private static final String DATABASE_URL = "jdbc:mysql://";
-        private static final String MYSQL_USER = "root";
-        private static final String MYSQL_PASSWD = "root";
+        final String DATABASE_DNS = "localhost";
+        final String DATABASE_URL = "jdbc:mysql://";
+        final String MYSQL_USER = "root";
+        final String MYSQL_PASSWD = "root";
 
-        Connection conn = null;     // manager connetion
-        Statement statement = null; // manager query
-        ResultSet rs = null;
+        Connection conn = null;                 // manager connetion
+        Statement statement = null;             // manager query
+        ResultSet rs = (ResultSet) statement;   // manager result query
 
         try {
             // Open a connection
@@ -29,22 +27,27 @@ public class ConnectionDbAndReturnQuery {
             Statement stmt = conn.createStatement();    // Statement = cursor() in Python
 
             // Storage in memory result query
-            ResultSet rs = stmt.executeQuery(query);    // ResultSet return a cursor
+            rs = stmt.executeQuery(query);    // ResultSet return a cursor
 
             // Return each line
             while (rs.next()) {
-                System.out.println(rs.getString());
+                System.out.println(rs);
             }
 
         } catch (SQLException e) {
-            System.out.Println("Error when execute QUERY: " + e.getMessage());
-            sqlException.printStackTrace();
+            System.out.println("Error when execute QUERY: " + e.getMessage());
+            e.printStackTrace();
         } finally {
+
             //finally block used to close resources
             if (conn != null || statement != null ||  rs != null) {
-                conn.close();
-                statement.close();
-                rs.close();
+                try {
+                    conn.close();
+                    statement.close();
+                    rs.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }

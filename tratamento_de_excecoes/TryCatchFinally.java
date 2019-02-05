@@ -1,7 +1,7 @@
 // The finally statement lets you execute code,
 // after try...catch, regardless of the result:
 
-public class MyClass {
+public class TryCatchFinally {
     public static void main(String[] args) {
 
       try {
