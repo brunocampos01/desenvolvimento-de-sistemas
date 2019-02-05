@@ -8,7 +8,7 @@ public class DesenhoSimplesPreenchidoTest {
 		//visible
 		frame.setVisible(true);
 		
-		//CLOSE
+		//close
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		//size
