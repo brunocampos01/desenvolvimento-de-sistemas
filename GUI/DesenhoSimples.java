@@ -3,8 +3,7 @@ import javax.swing.JPanel;
 
 public class DesenhoSimples extends JPanel{
 	//método que desenha o painel
-	public void paintComponent( Graphics g)
-	{
+	public void paintComponent( Graphics g)	{
 		super.paintComponent(g);
 		
 		int width = getWidth();
