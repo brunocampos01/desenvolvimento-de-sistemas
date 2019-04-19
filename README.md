@@ -2,9 +2,14 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 ## Describe project 
+- Data base connection
+- Serialization
+- Exceptions
+- GUI
+
 ## Pre Requirements
-- Java 8 ou superior:<br/>
-  - **Site oficial**: https://www.java.com/pt_BR/download/
+- Java 8 or more:<br/>
+
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
 ## Copyright
