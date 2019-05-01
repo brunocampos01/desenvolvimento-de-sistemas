@@ -23,11 +23,7 @@ mysql -h localhost -u USER -p
 CREATE USER 'campos'@'localhost' IDENTIFIED BY ''deitel';
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES,
 EXECUTE ON *.* to 'campos'@'localhost';
-```
-### Build jar
-```
-mvn clean install 
-```
+
 ### Java tutorial
 - https://docs.oracle.com/javase/tutorial/jdbc/basics/processingsqlstatements.html
 
