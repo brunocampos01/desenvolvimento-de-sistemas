@@ -8,7 +8,7 @@
 - GUI
 
 ## Requirements
-- Java 8 or more:<br/>
+- Java 8 or more
 
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
