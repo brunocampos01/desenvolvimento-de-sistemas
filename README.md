@@ -7,7 +7,7 @@
 - Exceptions
 - GUI
 
-## Pre Requirements
+## Requirements
 - Java 8 or more:<br/>
 
 ## Author
