@@ -1,7 +1,7 @@
 ## Apache Maven
-- is a dependency management and a build automation
-- use XML 
-- example of a pom.xml 
+- It's a dependency management and a build automation
+- using XML 
+- Example of a pom.xml 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -40,7 +40,7 @@
 </project>
 ```
 
-- Strture diretory
+- Struture Directory
 ```editorconfig
 .
 ├── craps2017.jar
