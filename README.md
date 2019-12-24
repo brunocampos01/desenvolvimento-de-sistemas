@@ -8,10 +8,15 @@
 - Exceptions
 - GUI
 
+<<<<<<< HEAD
 ## Pre Requirements
 - Java 1.8
 - MySQL
 - WildFly
+=======
+## Requirements
+- Java 8 or more
+>>>>>>> e6b87bdcbf9d69d1981fe860498b947e4e11711f
 
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
