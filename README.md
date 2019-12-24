@@ -3,12 +3,15 @@
 
 ## Describe project 
 - Data base connection
+- Application Server
 - Serialization
 - Exceptions
 - GUI
 
 ## Pre Requirements
-- Java 8 or more:<br/>
+- Java 1.8
+- MySQL
+- WildFly
 
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
