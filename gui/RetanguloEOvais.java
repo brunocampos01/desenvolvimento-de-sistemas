@@ -37,7 +37,7 @@ public class RetanguloEOvais extends JPanel{
 		            	g.drawLine(width/2-10*(i+1), height/2+10*(i+1), width/2-10*(i+1), height/2-10*(i+1));
 		            	g.drawLine(width/2-10*(i+1), height/2-10*(i+1), width/2+10*(i+1), height/2-10*(i+1));
 			
-			default :
+			default:
 				break;
 					
 			}
