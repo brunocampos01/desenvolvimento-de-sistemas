@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-import java.util.Scanner;
+
 
 public class ExibeCaixaDialago {
 	public static void main (String args []){
