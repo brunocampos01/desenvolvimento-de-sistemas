@@ -1,4 +1,7 @@
 # Desenvolvimento de Sistemas Orientado à objetos 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f499c8b4a6fa4a298299dcdac9ee67ac)](https://app.codacy.com/app/brunocampos01/desenvolvimento-de-sistemas?utm_source=github.com&utm_medium=referral&utm_content=brunocampos01/desenvolvimento-de-sistemas&utm_campaign=Badge_Grade_Dashboard)
+
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 - [Conexão com banco de dados - JDBC](https://github.com/brunocampos01/handle-database-with-code/tree/master/relational/mySQL/jdbc)
