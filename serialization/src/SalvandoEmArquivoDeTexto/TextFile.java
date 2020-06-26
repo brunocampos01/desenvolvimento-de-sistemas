@@ -1,4 +1,4 @@
-package SalvandoEmArquivoDeTexto;
+package salvandoEmArquivoDeTexto;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
