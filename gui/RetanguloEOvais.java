@@ -28,14 +28,18 @@ public class RetanguloEOvais extends JPanel{
 				break;
 				
 			case 3 :
-	            g.drawOval(width/2-10*i, height/2-10*i, 20*i, 20*i);
+	            		g.drawOval(width/2-10*i, height/2-10*i, 20*i, 20*i);
 				break;
 				
 			case 4:
-				   g.drawLine(width/2+10*i, height/2-10*i, width/2+10*i, height/2+10*(i+1));
-		            g.drawLine(width/2+10*i, height/2+10*(i+1), width/2-10*(i+1), height/2+10*(i+1));
-		            g.drawLine(width/2-10*(i+1), height/2+10*(i+1), width/2-10*(i+1), height/2-10*(i+1));
-		            g.drawLine(width/2-10*(i+1), height/2-10*(i+1), width/2+10*(i+1), height/2-10*(i+1));
+			    	g.drawLine(width/2+10*i, height/2-10*i, width/2+10*i, height/2+10*(i+1));
+		            	g.drawLine(width/2+10*i, height/2+10*(i+1), width/2-10*(i+1), height/2+10*(i+1));
+		            	g.drawLine(width/2-10*(i+1), height/2+10*(i+1), width/2-10*(i+1), height/2-10*(i+1));
+		            	g.drawLine(width/2-10*(i+1), height/2-10*(i+1), width/2+10*(i+1), height/2-10*(i+1));
+			
+			default :
+				break;
+					
 			}
 		}
 		
