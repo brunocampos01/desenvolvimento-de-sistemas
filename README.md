@@ -1,20 +1,20 @@
 # Desenvolvimento de Sistemas Orientado à objetos 
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-- [Data base connection JDBC](https://github.com/brunocampos01/handle-database-with-code/tree/master/relational/mySQL/jdbc)
-- [Application Server](application_server/)
-- [Serialization](serialization/)
+- [Conexão com banco de dados - JDBC](https://github.com/brunocampos01/handle-database-with-code/tree/master/relational/mySQL/jdbc)
+- [Criar um servidor de aplicação JBoss](application_server/)
+- [Iterfaces gráficas - GUI](gui/)
+- [Serialização](serialization/)
 - [Exceptions](handle_exceptions/)
-- [GUI](gui/)
 
-## Pre Requirements
+## Pre Requisitos
 - Java 1.8
 - MySQL
 - WildFly
-
+- IDEA Intelij
 ---
 
-#### Author
+#### Autor
 <a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="https://github.com/brunocampos01/devops/blob/master/images/gmail.png" width="28"></a>
 <a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/github.png" width="30"></a>
 <a href="https://www.linkedin.com/in/brunocampos01/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/linkedin.png" width="30"></a>
