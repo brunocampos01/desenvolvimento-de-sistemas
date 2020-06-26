@@ -1,4 +1,4 @@
-package SalvandoEmArquivoDeTexto;
+package salvandoEmArquivoDeTexto;
 
 public class Main {
     public static void main(String[] args) {
