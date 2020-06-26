@@ -1,10 +1,5 @@
 package com.example.william.trabalho;
 
-import java.util.List;
-
-/**
- * Created by william on 14/06/17.
- */
 
 public class Cinema {
 
