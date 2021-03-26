@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f499c8b4a6fa4a298299dcdac9ee67ac)](https://app.codacy.com/app/brunocampos01/desenvolvimento-de-sistemas?utm_source=github.com&utm_medium=referral&utm_content=brunocampos01/desenvolvimento-de-sistemas&utm_campaign=Badge_Grade_Dashboard)
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![java](https://img.shields.io/badge/ufsc-Desenvolvimento%20de%20Sistemas-green.svg)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01/desenvolvimento-de-sistemas.visitor-badge)
 
 
 ### Pré Requisitos
