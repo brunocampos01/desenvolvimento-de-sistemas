@@ -4,9 +4,11 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![java](https://img.shields.io/badge/ufsc-Desenvolvimento%20de%20Sistemas-green.svg)
 
-<div style="text-align: right"> ![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)
-</div>
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)
+![Visits Badge](https://badges.pufler.dev/visits/brunocampos01/desenvolvimento-de-sistemas)
 
+<div style="text-align: right">[![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)]</div>
+<p align='right'> xxx</p>
 
 
 
