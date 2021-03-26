@@ -4,13 +4,7 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-green.svg)
 ![java](https://img.shields.io/badge/ufsc-Desenvolvimento%20de%20Sistemas-green.svg)
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)
-![Visits Badge](https://badges.pufler.dev/visits/brunocampos01/desenvolvimento-de-sistemas)
-
-<div style="text-align: right">[![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)]</div>
-<p align='right'> xxx</p>
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![visitors](https://visitor-badge.laobi.icu/badge?page_id=brunocampos01.visitor-badge)
 
 
 
@@ -41,3 +35,4 @@ Bruno Aurélio Rôzza de Moura Campos
 
 #### Copyright
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
