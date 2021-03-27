@@ -20,14 +20,17 @@
 
 ---
 
-#### Autor
-<a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="https://github.com/brunocampos01/devops/blob/master/images/gmail.png" width="28"></a>
-<a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/github.png" width="30"></a>
-<a href="https://www.linkedin.com/in/brunocampos01/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/linkedin.png" width="30"></a>
-Bruno Aurélio Rôzza de Moura Campos 
-
----
-
-#### Copyright
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p  align="left">
+<br/>
+<a href="mailto:brunocampos01@gmail.com" target="_blank"><img src="https://img.icons8.com/material/48/000000/gmail--v1.png" alt="Gmail" width="30">
+</a>
+<a href="https://stackoverflow.com/users/8329698/bruno-campos" target="_blank"><img src="https://img.icons8.com/material/48/000000/stackoverflow.png" alt="GitHub" width="30">
+</a>
+<a href="https://www.linkedin.com/in/brunocampos01" target="_blank"><img src="https://img.icons8.com/windows/48/000000/linkedin.png" alt="LinkedIn" width="30"></a>
+<a href="https://github.com/brunocampos01" target="_blank"><img src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub" width="30"></a>
+<a href="https://brunocampos01.netlify.app/" target="_blank"><img src="https://img.icons8.com/material/48/000000/web.png" alt="Website" width="30">
+</a>
+<a href="https://medium.com/@brunocampos01" target="_blank"><img src="https://img.icons8.com/material/48/000000/medium.png" alt="GitHub" width="30">
+</a>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png",  align="right" /></a><br/>
+</p>
