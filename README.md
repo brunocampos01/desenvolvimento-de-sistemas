@@ -2,18 +2,7 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 ![java](https://img.shields.io/badge/UFSC-Desenvolvimento%20de%20Sistemas-blue.svg)
 
-
-### Pré Requisitos
-- MySQL
-- WildFly
-- Java 1.8
-- IDEA Intelij
-- Gradle - Gerenciador de pacotes Java
-
-
 ## Requirements
-This project is tested with:
-
 | Requisite                                                                | Version        |
 |--------------------------------------------------------------------------|----------------|
 | [Java](https://www.java.com/en/download/manual.jsp)                      | 1.8.0_282      |
@@ -21,8 +10,6 @@ This project is tested with:
 | [Gradle](https://gradle.org/install/)                                    | 7.3.1          |
 | [WildFly](https://www.wildfly.org/)                                      | 25.0.1.Final   |
 | [MySQL](https://www.mysql.com/)                                          | 5.7            |
-
-I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
 
 
 ### Conteúdos
