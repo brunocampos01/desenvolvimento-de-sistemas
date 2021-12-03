@@ -10,6 +10,21 @@
 - IDEA Intelij
 - Gradle - Gerenciador de pacotes Java
 
+
+## Requirements
+This project is tested with:
+
+| Requisite                                                                | Version        |
+|--------------------------------------------------------------------------|----------------|
+| [Java](https://www.java.com/en/download/manual.jsp)                      | 1.8.0_282      |
+| [Intellij IDEA](https://www.jetbrains.com/idea/download/#section=linux)  | 2020.1         |
+| [Gradle](https://gradle.org/install/)                                    | 7.3.1          |
+| [WildFly](https://www.wildfly.org/)                                      | 25.0.1.Final   |
+| [MySQL](https://www.mysql.com/)                                          | 5.7            |
+
+I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
+
+
 ### Conteúdos
 - [Criar um servidor de aplicação JBoss](application_server/)
 - [Aplicação Android - Próximos filmes](trabalho-app_android/)
