@@ -15,7 +15,7 @@
 ### Conteúdos
 - [Criar um servidor de aplicação JBoss](application_server/)
 - [Aplicação Android - Próximos filmes](trabalho-app_android/)
-- [Conexão com banco de dados - JDBC](https://github.com/brunocampos01/handle-database-with-code/tree/master/relational/mySQL/jdbc)
+- [Conexão com banco de dados - JDBC](https://github.com/brunocampos01/becoming-an-expert-data/tree/master/storage/database-cookbook/relational)
 - [Iterfaces gráficas - GUI](gui/)
 - [Serialização](serialization/)
 - [Exceptions](handle_exceptions/)
